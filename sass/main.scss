@@ -1,0 +1,27 @@
+
+$primary: #017c6d;
+$light: #9dbddc;
+$dark: #0f172b;
+$secondary: #faffeb;
+
+$font-family-base: "Poppins", sans-serif;
+$headings-font-family: "Poppins", sans-serif;
+$headings-color: $primary;
+$headings-font-weight: 800;
+$display-font-weight: 800;
+$enable-responsive-font-sizes: true;
+$border-radius: 2px;
+$btn-border-radius: 5px;
+$link-decoration: none;
+$enable-negative-margins: true;
+$body-bg: white;
+$background-color: #faffeb;
+$body-color: #2b2b2b;
+
+h1{
+    color: blue;
+}
+
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
