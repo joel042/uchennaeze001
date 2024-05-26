@@ -1,27 +1,216 @@
+$primary: #00aeff;
+$secondary: #f59753;
+$tertiary: #c4f8fe;
 
-$primary: #017c6d;
-$light: #9dbddc;
-$dark: #0f172b;
-$secondary: #faffeb;
 
-$font-family-base: "Poppins", sans-serif;
-$headings-font-family: "Poppins", sans-serif;
-$headings-color: $primary;
-$headings-font-weight: 800;
-$display-font-weight: 800;
-$enable-responsive-font-sizes: true;
-$border-radius: 2px;
-$btn-border-radius: 5px;
-$link-decoration: none;
-$enable-negative-margins: true;
-$body-bg: white;
-$background-color: #faffeb;
-$body-color: #2b2b2b;
+* {
+     font-family: 'Poppins',
+     sans-serif;
+}
 
-h1{
-    color: blue;
+.navbar-nav {
+    // scss-docs-start navbar-nav-css-vars
+
+    display: flex;
+    flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+
+
+}
+
+.navbar-nav a {
+    font-size: larger
+}
+
+.navbar {
+    padding: 100px
 }
 
 
-@import "/node_modules/bootstrap/scss/bootstrap.scss";
 
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.at-item {
+    width: 2500px;
+    height: 0px;
+    background-color: aqua;
+
+    animation-name: bounce-in-zoomin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    /* shorthand
+		animation: bounce-in-zoomin 1s linear 0s 1 normal none;*/
+}
+
+@keyframes bounce-in-zoomin {
+
+    0% {
+        transform: scale(7);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    35% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        transform: scale(1.5);
+        animation-timing-function: ease-in;
+    }
+
+    70% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: scale(1.24);
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        transform: scale(1.04);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+}
+
+
+.logo {
+    width: 100px;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+.navbar-nav .nav-link {
+
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.bg-light-orange {
+    background-color: #e48b4c0e;
+   
+}
+
+.navbar-nav .nav-link:hover {
+    color: darkblue;
+   
+}
+
+.container {
+    max-width: 2000px;
+}
+
+
+.heroName {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.heroDev{
+    color: #c4f8fe;
+}
+
+
+.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.at-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ffe672;
+
+    animation-name: bounce-in-zoomin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes bounce-in-zoomin {
+
+    0% {
+        transform: scale(7);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    35% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        transform: scale(1.5);
+        animation-timing-function: ease-in;
+    }
+
+    70% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: scale(1.24);
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        transform: scale(1.04);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+}
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
