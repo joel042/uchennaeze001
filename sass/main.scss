@@ -1,6 +1,8 @@
 $primary: #00aeff;
 $secondary: #f59753;
-$tertiary: #c4f8fe;
+$success: #c4f8fe;
+$info: #f8ec71;
+
 
 
 * {
@@ -211,6 +213,13 @@ div.at-container {
 }
 
 
+.heyText{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace
+}
 
+.work-process{
+    color: rgba(0, 0, 0, 0.698);
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
