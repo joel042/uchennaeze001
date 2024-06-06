@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!-- Option 1: Include in HTML -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -12,9 +14,9 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="">
 
-    <nav class="navbar   navbar-expand-lg bg-body-none bg-light">
+    <nav class="navbar sticky-top  navbar-expand-lg bg-success">
         <div class="container-fluid px-5 my-3">
             <a class="navbar-brand" href="#"><img src="/files/uchennasiteLogo01.png" class="logo" alt=""></a>
 
@@ -25,25 +27,33 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  mx-auto mb-2 mb-lg-0 text-center">
-                    <li class="fs-4 nav-item">
+                    <li class="fs-3 nav-item">
                         <a class="nav-link link-secondary active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class=" fs-4 nav-item">
+                    <li class=" fs-3 nav-item">
                         <a class="nav-link link-primary" href="#">About</a>
                     </li>
-                    <li class="fs-4 nav-item">
+                    <li class="fs-3 nav-item">
                         <a class="nav-link  link-primary" href="#">Process</a>
                     </li>
-                    <li class="fs-4 nav-item">
+                    <li class="fs-3 nav-item">
                         <a class="nav-link  link-primary" href="#">Portfolio</a>
                     </li>
-                    <li class="fs-4 nav-item">
+                    <li class="fs-3 nav-item">
                         <a class="nav-link  link-primary" href="#">Services</a>
                     </li>
+
+                    <!-- dark mode  -->
+
+                    <!-- <div class="d-flex justify-content-center me-4">
+                        <button class="btn btn-outline-primary nav-link btn-sm " id="dark-mode-toggle">D</button>
+                    </div> -->
+
+
                 </ul>
 
-                <div class="d-flex justify-content-center">
-                    <a class="btn btn-primary btn-lg text-center link-light" href="">Contact Me</a>
+                <div class=" d-flex justify-content-center">
+                    <a class="btn btn-secondary btn-lg text-center link-light" href="">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -54,76 +64,138 @@
 
     <!-- hero section -->
 
-    <section class="container-fluid  bg-light">
 
-        <div class="container ">
+
+    <section class="container-fluid d-flex">
+        <div class="container mt-3">
 
             <div class="row d-block d-xl-flex bg-primary heroName">
-                <div class="col d-flex align-items-center">
+                <div class="col d-flex  align-items-center">
                     <h1 class="display-3 heroDev ">
                         Hey! i'm <br> <span class="display-1 text-center heyText ">Uchenna Joel Eze,</span>
                         <p class="display-5">a Front-End Developer.</p>
+
+                        <div class="d-flex ">
+                            <div class="mx-3">
+                                <a class="btn btn-secondary btn-lg  link-light" href="">Contact</a>
+                            </div>
+
+                            <div class="">
+                                <a class="btn btn-secondary btn-lg  link-light" href="">Contact </a>
+                            </div>
+                        </div>
+
                     </h1>
 
                 </div>
+
+
                 <div class="col">
                     <div class="mb-2 at-container ">
                         <img src="/files/uchenna.jpg" class=" border border-5 rounded-circle img-fluid" alt="">
                     </div>
 
                 </div>
+
+
     </section>
 
     <!-- work process -->
     <section>
-        <div class="container mt-5 bg-success rounded  p-5 work-process">
+        <div class="container mt-5 bg-success rounded  p-5 ">
             <div class="row d-block d-xl-flex">
 
                 <div class="col text-center text-lg-start d-xl-flex align-items-center justify-content-center">
                     <div class="d-block">
                         <h1 class="display-1 ">Work Process</h1>
 
-                         <p>Creating an effective workflow  involves a series of steps to
-                             ensure the project is well-planned, executed efficiently, and maintained properly.
-                              Here’s a
-                             detailed work process:</p>
+                        <p>Creating an effective workflow involves a series of steps to
+                            ensure the project is well-planned, executed efficiently, and maintained properly.
+                            Here’s a
+                            detailed work process:</p>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="row">
 
-                        <div class="col mb-5">
+                        <div class="col border ">
                             <i class="bi bi-journal fs-1"></i>
                             <h1 class="py-2">1. Research</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
-                                Voluptatem, mollitia.</p>
-                        </div>
+                            <p>
+                                <ul>
 
-                        <div class="col">
+                                    <li>Client and Business Goals</li>
+                                    <li> Target Audience</li>
+                                    <li>Competition</li>
+
+                                    <li>Trends & Best Practices</li>
+                                    <li> Technical Research</li>
+                                    <li>Legal and Compliance Research</li>
+                                    <li>Marketing and Analytics</li>
+                                    <li> Financial and Resource Planning</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col border">
                             <i class="bi bi-graph-up fs-1"></i>
+
                             <h1 class="py-2">2. Analyze</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
-                                Voluptatem, mollitia.</p>
+                            <p>
+                                <ul>
+                                    <li>Requirements Analysis</li>
+                                    <li> User Experience (UX) Analysis</li>
+                                    <li>Design Analysis</li>
+                                    <li>Documentation</li>
+                                    <li> Functional Analysis</li>
+                                    <li>Accessibility and Compliance Analysis</li>
+                                    <li> Risk Analysis</li>
+                                    <li> Stakeholder Alignment</li>
+
+
+                                </ul>
+                            </p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col">
+                        <div class="col border">
                             <i class="bi bi-vector-pen fs-1"></i>
                             <h1 class="py-2">3. Design</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
-                                Voluptatem, mollitia.</p>
+                            <p>
+
+                                <ul>
+                                    <li>Layout and Structure</li>
+                                    <li> Typography</li>
+                                    <li> Color Scheme</li>
+                                    <li> Visual Elements</li>
+                                    <li> Navigation</li>
+                                    <li>Performance Optimization</li>
+                                    <li> Content Design</li>
+                                    <li> User Experience (UX)</li>
+
+
+                                </ul>
+                            </p>
                         </div>
-                        <div class="col">
+                        <div class="col border">
                             <i class="bi bi-laptop fs-1"></i>
                             <h1 class="py-2">4. Launch</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit.
-                                Voluptatem, mollitia.</p>
+                            <p>
+                                <ul>
+                                    <li>Code Review and Optimization</li>
+
+                                    <li> Typography</li>
+                                    <li> Security Measures</li>
+                                    <li> Deployment Preparation</li>
+                                    <li> Hosting and DNS Setup</li>
+                                    <li>Final Checks Before Launch</li>
+                                    <li> Launch</li>
+                                    <li> Post-Launch Activities</li>
+
+
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -131,9 +203,172 @@
         </div>
     </section>
 
+    <!-- portfolio -->
+
+    <section class="portfolio">
+
+    </section>
 
 
+
+    <!-- lets discuss project -->
+
+    <section class="container-fluid rounded ">
+        <div>
+            <div class="container mt-3">
+                <div class="row shadow-sm  rounded">
+                    <div class=" text-center  d-xl-flex align-items-center justify-content-center">
+                        <h1 class=" tools">Tools</h1>
+                    </div>
+                </div>
+
+                <div class="row  m-sm-5 projectLogo ">
+                    <div class="col border border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000" alt="html">
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="col  border  rounded border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=YjeKwnSQIBUq&format=png&color=000000" alt="css">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="col  border  rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+                            alt="JavaScript">
+                        <h1>JavaScript</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=t4YbEbA834uH&format=png&color=000000"
+                            alt="ReactJs">
+                        <h1>ReactJs</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git">
+                        <h1>Git</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000"
+                            alt="Github">
+                        <h1>Github</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+                            alt="bootstrap">
+                        <h1>Bootstrap</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=v9uZbuVoWleB&format=png&color=000000"
+                            alt="WordPress">
+                        <h1>WordPress</h1>
+                    </div>
+                    <div class="col  border rounded  border-secondary">
+                        <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
+                            alt="Visual code">
+                        <h1>VS code</h1>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <!-- second  -->
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container mt-5 bg-secondary rounded  p-5  whatIdo">
+            <div class="row d-block d-xl-flex">
+
+                <div class="col text-center text-lg-start d-xl-flex align-items-center justify-content-center">
+                    <div class="d-block">
+                        <h1 class="display-1 ">What i do?</h1>
+
+                        <p>Creating an effective workflow involves a series of steps to
+                            ensure the project is well-planned, executed efficiently, and maintained properly.
+                            Here’s a
+                            detailed work process:</p>
+                    </div>
+                </div>
+
+
+          <div class="border">
+
+                  <div class="col">
+                   
+                         
+                      <h1 class="py-2">Front-End Developer</h1>
+                      <p>
+
+                          <ul>
+                              <li>Layout and Structure</li>
+                              <li> Typography</li>
+                              <li> Color Scheme</li>
+                              <li> Visual Elements</li>
+                              <li> Navigation</li>
+                              <li>Performance Optimization</li>
+                              <li> Content Design</li>
+                              <li> User Experience (UX)</li>
+
+
+                          </ul>
+                      </p>
+                  </div>
+                  <div class="col ">
+                      <div class="row">
+                          <div class="col">
+
+                              <h1 class="py-2">Creative Designer</h1>
+                              <p>
+                                  <ul>
+                                      <li>Code Review and Optimization</li>
+
+                                      <li> Typography</li>
+                                      <li> Security Measures</li>
+                                      <li> Deployment Preparation</li>
+                                      <li> Hosting and DNS Setup</li>
+                                      <li>Final Checks Before Launch</li>
+                                      <li> Launch</li>
+                                      <li> Post-Launch Activities</li>
+
+
+                                  </ul>
+                              </p>
+                          </div>
+
+                          <div class="">
+
+                          </div>
+
+                      </div>
+
+                  </div>
+          </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./files/script.js"></script>
 </body>
 
 </html>

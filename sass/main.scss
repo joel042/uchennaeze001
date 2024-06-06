@@ -1,6 +1,6 @@
 $primary: #00aeff;
 $secondary: #f59753;
-$success: #c4f8fe;
+$success: #e6f9fb;
 $info: #f8ec71;
 
 
@@ -137,7 +137,7 @@ div.at-container {
 
 
 .heroName {
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 20px;
 }
 
@@ -214,7 +214,7 @@ div.at-container {
 
 
 .heyText{
-    color: #ffffff;
+    color: #f5c8a8;
     font-family: 'Courier New', Courier, monospace
 }
 
@@ -222,4 +222,66 @@ div.at-container {
     color: rgba(0, 0, 0, 0.698);
 }
 
+.whatIdo{
+    color: white;
+}
+
+.imag{
+    padding: 5px;
+    color: $success;
+    background-color: $secondary;
+    
+    }
+
+.tools{
+    color: $secondary;
+    font-size: 100px;
+   text-align: start;
+   margin-top: 60px;
+
+}
+
+.projectLogo{
+    text-align: center;
+   
+
+    svg{
+        color: white;
+        height: 150px;
+
+     padding: 20px;
+       
+        
+        
+    }
+}
+
+
+
+     /* Dark mode styles */
+     body.dark-mode {
+         background-color: #121212;
+         color: #ffffff;
+     }
+
+     .navbar.dark-mode {
+         background-color: #333333;
+     }
+
+     .bg-success.dark-mode {
+         background-color: #444444 !important;
+     }
+
+     .bg-primary.dark-mode {
+         background-color: #3333aa !important;
+     }
+
+     .heroName.dark-mode,
+     .work-process.dark-mode {
+         background-color: #222222;
+         background-size: 20%;
+     }
+
+
+   
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
