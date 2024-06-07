@@ -6,9 +6,13 @@ $info: #f8ec71;
 
 
 * {
-     font-family: 'Poppins',
-     sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
+
 }
+
+
+
 
 .navbar-nav {
     // scss-docs-start navbar-nav-css-vars
@@ -123,12 +127,12 @@ div.at-container {
 
 .bg-light-orange {
     background-color: #e48b4c0e;
-   
+
 }
 
 .navbar-nav .nav-link:hover {
     color: darkblue;
-   
+
 }
 
 .container {
@@ -141,7 +145,7 @@ div.at-container {
     padding: 20px;
 }
 
-.heroDev{
+.heroDev {
     color: #c4f8fe;
 }
 
@@ -213,75 +217,83 @@ div.at-container {
 }
 
 
-.heyText{
+.heyText {
     color: #f5c8a8;
     font-family: 'Courier New', Courier, monospace
 }
 
-.work-process{
+.work-process {
     color: rgba(0, 0, 0, 0.698);
 }
 
-.whatIdo{
+.whatIdo {
     color: white;
 }
 
-.imag{
-    padding: 5px;
-    color: $success;
-    background-color: $secondary;
-    
-    }
+// .imag {
+//     padding: 5px;
+//     color: $success;
+//     // background-color: $secondary;
 
-.tools{
+//     background-color: linear-gradient($primary $primary);
+
+// }
+
+.tools {
     color: $secondary;
-    font-size: 100px;
-   text-align: start;
-   margin-top: 60px;
+   
+    text-align: start;
+    margin-top: 60px;
+   
 
 }
 
-.projectLogo{
+.projectLogo {
     text-align: center;
-   
 
-    svg{
+
+    svg {
         color: white;
         height: 150px;
 
-     padding: 20px;
-       
-        
-        
+        padding: 20px;
+
+
+
     }
 }
 
 
 
-     /* Dark mode styles */
-     body.dark-mode {
-         background-color: #121212;
-         color: #ffffff;
-     }
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
 
-     .navbar.dark-mode {
-         background-color: #333333;
-     }
+.navbar.dark-mode {
+    background-color: #333333;
+}
 
-     .bg-success.dark-mode {
-         background-color: #444444 !important;
-     }
+.bg-success.dark-mode {
+    background-color: #444444 !important;
+}
 
-     .bg-primary.dark-mode {
-         background-color: #3333aa !important;
-     }
+.bg-primary.dark-mode {
+    background-color: #3333aa !important;
+}
 
-     .heroName.dark-mode,
-     .work-process.dark-mode {
-         background-color: #222222;
-         background-size: 20%;
-     }
+.heroName.dark-mode,
+.work-process.dark-mode {
+    background-color: #222222;
+    background-size: 20%;
+}
 
 
-   
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i';
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
