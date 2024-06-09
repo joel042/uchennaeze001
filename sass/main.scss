@@ -316,6 +316,54 @@ body.dark-mode {
     
 }
 
+.collapse ul li:hover {
+ 
+    border: 1px solid #f59753;
+  
+    color: white;
+}
+
+
+
+// testing-darkMode
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-success {
+    background-color: var(--success-color) !important;
+}
+
+/* Dark mode variables */
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --success-color: #03dac6;
+    --warning-color: #cf6679;
+}
+
+
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i';
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
