@@ -289,10 +289,32 @@ body.dark-mode {
     background-size: 20%;
 }
 
+.contact-info {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500px;
+    border-radius: 50px;
+}
 
 
+.form-container textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
 
-
+ .buttons button {
+    height: 60px;
+    width: 150px;
+    background-color: #f59753;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    
+}
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i';
 
