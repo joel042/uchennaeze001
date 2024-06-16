@@ -1,0 +1,33 @@
+.btnCV {
+    width:  250px;
+    height: 50px;
+    text-transform: none;
+    border: none;
+    border-radius: 10px;
+  background-color: #f8ec71;
+    color: white;
+}
+
+.btnCV:hover {
+    width: 250px;
+    height: 50px;
+    text-transform: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #fcf6bd;
+    color: white;
+}
+
+@media  (min-width: 1600px){
+    .btnCV {
+        width: 250px;
+        height: 50px;
+        text-transform: none;
+        border: none;
+        border-radius: 10px;
+        background-color: #f8ec71;
+        color: white;
+       
+    }
+
+}

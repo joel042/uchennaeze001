@@ -8,10 +8,9 @@ $info: #f8ec71;
 * {
     font-family: 'Poppins',
         sans-serif;
+       
 
 }
-
-
 
 
 .navbar-nav {
@@ -218,8 +217,10 @@ div.at-container {
 
 
 .heyText {
-    color: #f5c8a8;
-    font-family: 'Courier New', Courier, monospace
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 .work-process {
@@ -327,41 +328,80 @@ body.dark-mode {
 
 // testing-darkMode
 
-:root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --success-color: #28a745;
-    --warning-color: #ffc107;
+
+
+
+// animated text
+
+.animinated-text {
+    font-size: 30px;
+    font-weight: 500;
+    min-width: 200px;
 }
 
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+.animinated-text span {
+    position: relative;
 }
 
-.bg-primary {
-    background-color: var(--primary-color) !important;
+.animinated-text span::before {
+    content: "Frontend Developer";
+    color: $success;
+    animation: words 15s infinite;
 }
 
-.bg-secondary {
-    background-color: var(--secondary-color) !important;
+.animinated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: rgb(183, 198, 198);
+    border-left: 2px solid #ff7f50;
+    background-color: $primary;
+    right: -8px;
+    animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
 }
 
-.bg-success {
-    background-color: var(--success-color) !important;
+@keyframes cursor {
+    to {
+        border-left: 2px solid #ffffff;
+    }
 }
 
-/* Dark mode variables */
-body.dark-mode {
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    --primary-color: #bb86fc;
-    --secondary-color: #03dac6;
-    --success-color: #03dac6;
-    --warning-color: #cf6679;
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Frontend Developer ";
+    }
+
+    20.01% {
+        content: " Frontend Developer";
+        /* Ensure a smooth transition starting from 20% */
+    }
+
+    40% {
+        content: "Designer";
+    }
 }
+
+
+@keyframes typing {
+    
+    10%,
+    15%,
+    30%,
+    55%,
+    70%,
+    75%,
+    95% {
+        width: 0;
+    }
+
+
+ 
+}
+
+
 
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i';
